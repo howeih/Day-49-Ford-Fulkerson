@@ -1,0 +1,7 @@
+[package]
+name = "ford_fulkerson"
+version = "0.1.0"
+authors = ["Howard Huang <howeih@gmail.com>"]
+edition = "2018"
+
+[dependencies]
