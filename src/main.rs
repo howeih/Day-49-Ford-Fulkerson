@@ -110,11 +110,11 @@ impl FordFulkerson {
 }
 
 fn main() {
-    let start = 's';
+    let source = 's';
     let sink = 't';
-    let mut ford_fulkerson = FordFulkerson::new(start, sink);
-    ford_fulkerson.add_edge(start, 'A', 10);
-    ford_fulkerson.add_edge(start, 'C', 10);
+    let mut ford_fulkerson = FordFulkerson::new(source, sink);
+    ford_fulkerson.add_edge(source, 'A', 10);
+    ford_fulkerson.add_edge(source, 'C', 10);
     ford_fulkerson.add_edge('A', 'B', 4);
     ford_fulkerson.add_edge('A', 'C', 2);
     ford_fulkerson.add_edge('A', 'D', 8);
